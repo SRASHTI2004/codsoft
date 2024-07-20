@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,62,196,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    /* background: rgb(115,58,180);
+background: linear-gradient(90deg, rgba(115,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: 2px solid black;
+    border-radius: 0.2rem;
+    margin: 2rem;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+.box{
+    width: 90%;
+}
+form label{
+     font-size: 2.5rem;
+     font-weight: bold;
+     margin: 1rem;
+     padding: 0.5rem;
+}
+.todo{
+     width: 70%;
+     font-size: 1.3rem;
+     font-weight: bold;
+}
+
+.btn{
+    font-size: 1rem;
+    font-weight: 700;
+    width: auto;
+    background-color: black;
+    color: white;
+    border-radius: 0.3rem;
+}
+
+li{
+    display: inline-block;
+    width: 80%;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    list-style: square;
+    background-color: whitesmoke;
+    color: black;
+}
+button{
+    display: inline-block;
+    position: relative;
+    top: -1.7rem;
+    font-size: 0.7rem;
+    font-weight: 800;
+    margin: 0.5rem;
+    padding: 0.3rem;
+}
+ul{
+    width: 100%;
+}
+h2{
+    font-size: 3rem;
+    margin: 2rem;
+    text-align: center;
+}
+#h21{
+    font-size: 3rem;
+    margin: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+#comp li{
+    font-weight: bolder;
+    background: rgb(69,233,34);
+    background: linear-gradient(90deg, rgb(84, 228, 51) 0%, rgba(15,204,36,1) 35%, rgb(39, 168, 37) 100%);
+}
